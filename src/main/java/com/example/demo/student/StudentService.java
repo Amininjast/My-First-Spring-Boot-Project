@@ -37,6 +37,5 @@ public class StudentService {
             throw new IllegalStateException("student with id " + studentId + " does not exists" );
         }
         studentRepository.deleteById(studentId);
-        
     }
 }
